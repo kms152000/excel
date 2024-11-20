@@ -17,6 +17,7 @@ for data in data2:
 
 #Cell data 쓰기
 wa = wb["sheet2"]
+wa.cell(row =1 , column = 1).value = "value"
 
 
 #Cell data 삭제하기
